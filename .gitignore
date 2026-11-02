@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Captured media / outputs (don't commit stream grabs)
+snap_*.jpg
+e99_media/
+*.avi
+*.mp4
+
+# Packet captures, logs, decompiled app, APKs (proprietary / not ours)
+*.pcap
+*.pcapng
+*.log
+apk/
+jadx_out/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
